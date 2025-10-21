@@ -84,7 +84,7 @@ const AppSidebar = () => {
                   width={20}
                   height={20}
                 />
-                <span>STORE Panel Admin</span>
+                <span> Store Admin Panel</span>
               </Link>
             </SidebarMenuButton>
           </SidebarMenuItem>
