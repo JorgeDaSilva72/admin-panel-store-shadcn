@@ -1,7 +1,7 @@
 // import AppAreaChart from "@/components/AppAreaChart";
 import AppBarChartByDay from "@/components/AppBarChartByDay";
 import AppBarChartByMonth from "@/components/AppBarChartByMonth";
-// import AppPieChart from "@/components/AppPieChart";
+import AppPieChart from "@/components/AppPieChart";
 // import CardList from "@/components/CardList";
 // import TodoList from "@/components/TodoList";
 
@@ -16,11 +16,13 @@ const Homepage = () => {
       </div>
 
       <div className="bg-primary-foreground p-4 rounded-lg">
+        <AppPieChart />
+      </div>
+
+      <div className="bg-primary-foreground p-4 rounded-lg">
         {/* <CardList title="Latest Transactions" /> */}
       </div>
-      <div className="bg-primary-foreground p-4 rounded-lg">
-        {/* <AppPieChart /> */}
-      </div>
+
       <div className="bg-primary-foreground p-4 rounded-lg">
         {/* <TodoList /> */}
       </div>
