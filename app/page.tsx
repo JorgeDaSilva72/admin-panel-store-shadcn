@@ -1,4 +1,4 @@
-// import AppAreaChart from "@/components/AppAreaChart";
+import AppAreaChart from "@/components/AppAreaChart";
 import AppBarChartByDay from "@/components/AppBarChartByDay";
 import AppBarChartByMonth from "@/components/AppBarChartByMonth";
 import AppPieChart from "@/components/AppPieChart";
@@ -31,7 +31,7 @@ const Homepage = () => {
         {/* <TodoList /> */}
       </div>
       <div className="bg-primary-foreground p-4 rounded-lg lg:col-span-2 xl:col-span-1 2xl:col-span-2">
-        {/* <AppAreaChart /> */}
+        <AppAreaChart />
       </div>
       <div className="bg-primary-foreground p-4 rounded-lg">
         {/* <CardList title="Popular Content" /> */}
