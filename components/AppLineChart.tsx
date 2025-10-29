@@ -78,20 +78,21 @@ import {
   ChartTooltipContent,
 } from "./ui/chart";
 
+// Monthly user activity data (example)
 const chartData = [
-  { month: "Janvier", orders: 3, spent: 180, abandoned: 1, visits: 25 },
-  { month: "Février", orders: 5, spent: 320, abandoned: 0, visits: 42 },
-  { month: "Mars", orders: 2, spent: 110, abandoned: 2, visits: 18 },
-  { month: "Avril", orders: 4, spent: 260, abandoned: 1, visits: 30 },
-  { month: "Mai", orders: 6, spent: 490, abandoned: 0, visits: 55 },
-  { month: "Juin", orders: 3, spent: 200, abandoned: 1, visits: 28 },
+  { month: "January", orders: 3, spent: 180, abandoned: 1, visits: 25 },
+  { month: "February", orders: 5, spent: 320, abandoned: 0, visits: 42 },
+  { month: "March", orders: 2, spent: 110, abandoned: 2, visits: 18 },
+  { month: "April", orders: 4, spent: 260, abandoned: 1, visits: 30 },
+  { month: "May", orders: 6, spent: 490, abandoned: 0, visits: 55 },
+  { month: "June", orders: 3, spent: 200, abandoned: 1, visits: 28 },
 ];
 
 const chartConfig = {
-  orders: { label: "Commandes passées", color: "#3b82f6" }, // bleu
-  spent: { label: "Montant dépensé (€)", color: "#22c55e" }, // vert
-  abandoned: { label: "Paniers abandonnés", color: "#ef4444" }, // rouge
-  visits: { label: "Visites du profil", color: "#facc15" }, // jaune
+  orders: { label: "Orders placed", color: "#3b82f6" }, // blue
+  spent: { label: "Total spent (€)", color: "#22c55e" }, // green
+  abandoned: { label: "Abandoned carts", color: "#ef4444" }, // red
+  visits: { label: "Profile visits", color: "#facc15" }, // yellow
 } satisfies ChartConfig;
 
 const UserStatsChart = () => {
