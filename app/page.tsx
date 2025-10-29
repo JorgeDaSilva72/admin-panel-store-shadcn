@@ -4,7 +4,7 @@ import AppBarChartByMonth from "@/components/AppBarChartByMonth";
 import AppPieChart from "@/components/AppPieChart";
 import NewVsReturningAreaChart from "@/components/NewVsReturningAreaChart";
 import SalesByCountryPieChart from "@/components/SalesByCountryPieChart";
-// import CardList from "@/components/CardList";
+import CardList from "@/components/CardList";
 // import TodoList from "@/components/TodoList";
 
 const Homepage = () => {
@@ -25,20 +25,20 @@ const Homepage = () => {
       </div>
 
       <div className="bg-primary-foreground p-4 rounded-lg">
-        {/* <CardList title="Latest Transactions" /> */}
+        <CardList title="Latest Transactions" />
+      </div>
+      <div className="bg-primary-foreground p-4 rounded-lg">
+        <CardList title="Popular Product" />
       </div>
 
-      <div className="bg-primary-foreground p-4 rounded-lg">
-        {/* <TodoList /> */}
-      </div>
+      {/* <div className="bg-primary-foreground p-4 rounded-lg">
+        <TodoList />
+      </div> */}
       <div className="bg-primary-foreground p-4 rounded-lg lg:col-span-2 xl:col-span-1 2xl:col-span-2">
         <AppAreaChart />
       </div>
       <div className="bg-primary-foreground p-4 rounded-lg lg:col-span-2 xl:col-span-1 2xl:col-span-2">
         <NewVsReturningAreaChart />
-      </div>
-      <div className="bg-primary-foreground p-4 rounded-lg">
-        {/* <CardList title="Popular Content" /> */}
       </div>
     </div>
   );
